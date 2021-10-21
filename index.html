@@ -4,77 +4,118 @@
 <head>
   <meta charset="UTF-8">
   <title>César Daniel Reyes Garcia</title>
+  <link rel="stylesheet" href="C:\Game_111\Personal Website\css\styles.css">
+  <style>
+    body {
+      border: 10px outset #E0FFFF;
+    }
+
+    h3 {
+      color: red;
+    }
+
+    p {
+      font-family: Arial;
+    }
+  </style>
 </head>
 
 <body>
-  <img src="selfPortait.jpg" alt="" width="" height="">
-  <img src="linkedin-blue-style-logo-png-0.png" alt="" width="60" height="60" usemap="#Linkedin">
-  <map name="#Linkedin">
-    <area shape="rect" coords="0,0,60,60" href="https://www.linkedin.com/in/c%C3%A9sar-daniel-reyes-garc%C3%ADa-b3973817b/" alt="">
-  </map>
-  <h1>César Daniel Reyes García</h1>
-  <h2>Game Programming Student</h2>
-  <h2>St. Lawrence College </h2>
-  <a href="#Contact">
+  <img id="retrato" src="C:\Game_111\Personal Website\images\selfPortait.jpg" alt="selfPortait" width="300" height="300">
+
+  <h1 class="titles">César Daniel Reyes García</h1>
+  <h2 class="titles">Game Programming Student</h2>
+  <h2 style="color:red" class="titles">St. Lawrence College </h2>
+  <a href="#Contact" class="titles">
     <h5>Contact me</h5>
   </a>
-  <hr size=3 noshade>
-  <h3>Biography</h3>
-  <p> I'm a Mechatronics engineer with a deep love for video games. Now I'm in the pursuit of following my passion and channeling my engineering skills in the game development industry. </p>
-  <br>
-  <p>My favorite game franchises are The Legend of Heroes (Trails series), Halo, and Dark Souls (anything From Software).</p>
-  <br>
-  <p>My favorite quote comes from the 26th president of Mexico, Benito Juarez. </p>
-  <q>Among individuals, as among nations, respect for the rights of others is peace.</q><p>- Benito Juarez</p>
-  <br>
-<p>When it comes to game design, I would like to follow the same philosophy that the president of From Software, Hidetaka Miyazaki, follows. Here is a quote from Miyazaki about game difficulties from gaming website Twinfinite:</p>
-<blockquote cite="https://twinfinite.net/2018/06/from-softwares-hidetaka-miyazaki-talks-about-why-souls-games-dont-have-difficulty-settings/">
-We don’t want to include a difficulty selection because we want to bring everyone to the same level of discussion and the same level of enjoyment, so we want everyone to first face that challenge and to overcome it in some way that suits them as a player.
-</blockquote>
-<br>
-  <h3>Interests</h3>
-  <ul>
-    <li>Automation</li>
-    <li>Robotics</li>
-    <li>Software Development</li>
-    <li>Game Development</li>
-    <li>Voice Acting</li>
-  </ul>
-  <br>
-  <h3>Portfolio Samples</h3>
-  <table border="1">
-    <tr>
-      <th>Title</th>
-      <th>Description</th>
-      <th>Progress</th>
-    </tr>
-    <tr>
-      <td>Project 1</td>
-      <td>2d platformer</td>
-      <td>In initial stages</td>
-    </tr>
-    <tr>
-      <td>Project 2</td>
-      <td colspan="2"> No concept yet</td>
-    </tr>
-  </table>
-  <p>For a more complete list of projects, check my <a href="https://danielreyesgarcia.github.io/portafolio">full portfolio</a>.</p>
-  <br>
-  <h3>Previous Jobs</h3>
-  <ol start="1">
-    <li>PLC Programmer Jr.</li>
-    <li>Site Supervisor (Electrical Instalation)</li>
-    <li>Electrical Designer</li>
-    <li>Internship Mexican Electricity Company</li>
-  </ol>
-  <hr size=3 noshade>
+  <div class="personal">
+    <h3 style="text-align:center">Biography</h3>
+    <p> I'm a Mechatronics engineer with a deep love for video games. Now I'm in the pursuit of following my passion and channeling my engineering skills in the game development industry. </p>
+    <br>
+    <p>Here is a list of my favorite game franchises:</p>
+    <ul class="list">
+      <li>
+        The Legend of Heroes
+        <ul class="list">
+          <li>Trails in the Sky</li>
+          <li>Trails of Cold Steel</li>
+          <li>Trails of Zero</li>
+          <li>Trails of Azure</li>
+        </ul>
+      </li>
+      <li>
+        From Software Games
+        <ul class="list">
+          <li>Demon Souls</li>
+          <li>Dark Souls</li>
+          <li>Bloodborne</li>
+          <li>Sekiro</li>
+        </ul>
+      </li>
+      <li>All the Halo games</li>
+    </ul>
+    <br>
+    <p>My favorite quote comes from the 26th president of Mexico, Benito Juarez. </p>
+    <q>Among individuals, as among nations, respect for the rights of others is peace.</q>
+    <p>- Benito Juarez</p>
+    <br>
+    <p>When it comes to game design, I would like to follow the same philosophy that the president of From Software, Hidetaka Miyazaki, follows. Here is a quote from Miyazaki about game difficulties from gaming website Twinfinite:</p>
+    <blockquote cite="https://twinfinite.net/2018/06/from-softwares-hidetaka-miyazaki-talks-about-why-souls-games-dont-have-difficulty-settings/">
+      "We don’t want to include a difficulty selection because we want to bring everyone to the same level of discussion and the same level of enjoyment, so we want everyone to first face that challenge and to overcome it in some way that suits them
+      as
+      a player".
+    </blockquote>
+  </div>
+  <div class="professional">
+    <h3>Fields of Reaserch and Interests</h3>
+    <ul class="list">
+      <li>Automation</li>
+      <li>Robotics</li>
+      <li>Software Development</li>
+      <li>Game Development</li>
+      <li>Voice Acting</li>
+    </ul>
+    <br>
+    <h3>Portfolio Samples</h3>
+    <table border="1" class="table1 table2">
+      <tr>
+        <th class="header">Title</th>
+        <th class="header">Description</th>
+        <th class="header">Progress</th>
+      </tr>
+      <tr>
+        <td>Project 1</td>
+        <td>2d platformer</td>
+        <td>In initial stages</td>
+      </tr>
+      <tr>
+        <td>Project 2</td>
+        <td colspan="2"> No concept yet</td>
+      </tr>
+    </table>
+    <p>For a more complete list of projects, check my <a href="https://danielreyesgarcia.github.io/portfolio">full portfolio</a>.</p>
+    <br>
+    <h3>Previous Jobs</h3>
+    <ol start="1" class="list">
+      <li>PLC Programmer Jr.</li>
+      <li>Site Supervisor (Electrical Instalation)</li>
+      <li>Electrical Designer</li>
+      <li>Internship Mexican Electricity Company</li>
+    </ol>
+  </div>
   <a name="Contact"></a>
-  <h3>Contact</h3>
+  <h3 id="contact">Contact</h3>
   <address>
     Email: cesardaniel.reyesgarcia@student.sl.on.ca <br>
     Phone: +52-(871)-235-7678<br>
     Cornwall, Ontario<br>
     Linkedin: <a href="https://www.linkedin.com/in/c%C3%A9sar-daniel-reyes-garc%C3%ADa-b3973817b/">César Daniel Reyes García</a>
   </address>
+  <img src="C:\Game_111\Personal Website\images\linkedin-blue-style-logo-png-0.png" alt="LinkedinLogo" width="110" height="110" usemap="#Linkedin" id="linkedin">
+  <map name="#Linkedin">
+    <area shape="rect" coords="0,0,110,110" href="https://www.linkedin.com/in/c%C3%A9sar-daniel-reyes-garc%C3%ADa-b3973817b/" alt="">
+  </map>
 </body>
+
 </html>

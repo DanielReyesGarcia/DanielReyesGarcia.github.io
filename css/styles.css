@@ -1,0 +1,111 @@
+body {
+  background-color: lightblue;
+}
+
+h3 {
+  font-family: Calibri;
+}
+
+figcaption {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+
+address {
+  border-style: dotted;
+  width: 300px;
+  background-color: #eee;
+  float: left;
+}
+
+.list {
+  list-style-position: inside;
+  font-family: Arial;
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.titles {
+  text-align: center;
+  height: 43px;
+  font-size: 30px;
+}
+
+.table1 {
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table2 {
+  border-collapse: collapse;
+  background-color: lightgreen;
+}
+
+.header {
+  background-color: black;
+  color: white;
+}
+
+.round {
+  border-radius: 10%;
+  height: 300px;
+  width: 300px;
+  border: 3px solid black;
+}
+
+.titleSection {
+  text-align: center;
+  font-size: 50px;
+  font-family: fantasy;
+  color: blue;
+}
+
+.tableBorders {
+  background-color: #B9D9EB;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal {
+  background-color: #00FFFF;
+  border: 10px outset #00FFFF;
+  text-align: center;
+}
+
+.professional {
+  background-color: #7DF9FF;
+  border: 10px;
+  border-style: outset;
+  border-color: #7DF9FF;
+  text-align: center;
+}
+
+.projects {
+  font-family: cursive;
+  border: 5px groove #99FFFF;
+  background-color: #99FFFF;
+  overflow: hidden;
+}
+
+.projectImage {
+  float: right;
+}
+
+#retrato {
+  float: left;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+#contact {
+  color: black;
+  text-align: left;
+  font-style: italic;
+  font-family: Calibri;
+  height: 10px;
+  font-size: 20px;
+}
